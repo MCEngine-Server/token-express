@@ -1,0 +1,8 @@
+{
+  "name": "Node.js 18 DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "npm install",
+  "remoteUser": "node"
+}
